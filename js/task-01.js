@@ -1,9 +1,14 @@
+// Короткий вариант
+
 // const listRef = document.querySelectorAll('.item');
 // console.log(`В списке ${listRef.length} категории`);
 // listRef.forEach((el =>
 //   console.log(`Категория:${el.firstElementChild.textContent}
 // Количество элементов:${el.lastElementChild.children.length}`)
 // ));
+
+
+// Более понятный вариант
 
 const itemsRef = document.querySelectorAll('.item');
 console.log(`В списке ${itemsRef.length} категории`);
