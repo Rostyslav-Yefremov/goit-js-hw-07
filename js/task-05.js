@@ -6,7 +6,6 @@ const refs = {
 refs.input.addEventListener('input', onInputChange)
 
 function onInputChange(event) {
-   refs.input === '' ? refs.span = 'незнакомец' : refs.span.textContent = event.currentTarget.value;  
+   event.currentTarget.value === '' ? refs.span.textContent = 'незнакомец' : refs.span.textContent = event.currentTarget.value;  
 };
 
-   
